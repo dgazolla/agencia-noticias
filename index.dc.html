@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'IBM Plex Sans',sans-serif;background:#f5f4f0;color:#1b2733;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:'Libre Franklin',sans-serif}
+  a{text-decoration:none;color:inherit}
+</style>
+</helmet>
+
+<div style="min-height:100vh;background:#f5f4f0">
+
+  <!-- NAV -->
+  <div style="background:#0b1f44;color:#fff">
+    <div style="max-width:1000px;margin:0 auto;padding:0 32px;height:54px;display:flex;align-items:center;justify-content:space-between">
+      <div style="display:flex;align-items:center;gap:12px">
+        <svg viewBox="0 0 24 24" width="15" height="15" style="fill:#8fd3f7"><path d="M12 1.5l1.9 7.2 7.1 1.9-7.1 1.9L12 19.7l-1.9-7.2L3 10.6l7.1-1.9z"/></svg>
+        <span style="font-size:14px;font-weight:700;letter-spacing:.02em">Agência de Notícias da Indústria · IA</span>
+      </div>
+      <span style="font-size:11.5px;color:#9fb2cf;font-weight:500">Protótipos · v1.0 · Junho 2026</span>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div style="background:#0b1f44;color:#fff;padding:56px 32px 64px">
+    <div style="max-width:1000px;margin:0 auto">
+      <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:100px;padding:5px 14px;margin-bottom:20px">
+        <span style="width:6px;height:6px;border-radius:50%;background:#41d18a;display:inline-block"></span>
+        <span style="font-size:11px;font-weight:700;letter-spacing:.08em;color:#8fd3f7">PROTÓTIPOS INTERATIVOS · IA</span>
+      </div>
+      <h1 style="font-size:44px;font-weight:900;line-height:1.1;letter-spacing:-.02em;max-width:620px">Portal de Notícias com Inteligência Artificial</h1>
+      <p style="margin-top:16px;font-size:17px;color:#9fb2cf;line-height:1.55;max-width:560px">Protótipos de alta fidelidade explorando busca semântica, RAG e chat com o acervo da Agência CNI.</p>
+    </div>
+  </div>
+
+  <!-- CARDS -->
+  <div style="max-width:1000px;margin:0 auto;padding:48px 32px 80px">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px">
+
+      <!-- Portal IA -->
+      <a href="Portal IA.dc.html" style="background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e3e6ea;display:flex;flex-direction:column;transition:box-shadow .2s" style-hover="box-shadow:0 8px 32px rgba(11,31,68,.12)">
+        <div style="background:linear-gradient(135deg,#0b1f44,#10377a);padding:32px 28px 28px;flex:1">
+          <div style="font-size:11px;font-weight:700;letter-spacing:.08em;color:#8fd3f7;margin-bottom:12px">PROTÓTIPO 01</div>
+          <div style="font-size:22px;font-weight:800;color:#fff;margin-bottom:8px;line-height:1.2">Portal IA</div>
+          <div style="font-size:14px;color:#9fb2cf;line-height:1.5">Homepage com feed inteligente, resumo executivo, termômetros de temas e chat com busca semântica no acervo.</div>
+        </div>
+        <div style="padding:18px 28px;border-top:1px solid #eef1f5;display:flex;align-items:center;justify-content:space-between">
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <span style="background:#e8f4fc;color:#0b2f63;font-size:11px;font-weight:700;padding:3px 9px;border-radius:100px">Chat RAG</span>
+            <span style="background:#e8f4fc;color:#0b2f63;font-size:11px;font-weight:700;padding:3px 9px;border-radius:100px">Busca Semântica</span>
+            <span style="background:#e8f4fc;color:#0b2f63;font-size:11px;font-weight:700;padding:3px 9px;border-radius:100px">Resumo IA</span>
+          </div>
+          <span style="color:#0096d6;font-size:18px;font-weight:300">→</span>
+        </div>
+      </a>
+
+      <!-- Materia IA -->
+      <a href="Materia IA.dc.html" style="background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e3e6ea;display:flex;flex-direction:column">
+        <div style="background:linear-gradient(135deg,#083828,#1a6040);padding:32px 28px 28px;flex:1">
+          <div style="font-size:11px;font-weight:700;letter-spacing:.08em;color:#7ed6a8;margin-bottom:12px">PROTÓTIPO 02</div>
+          <div style="font-size:22px;font-weight:800;color:#fff;margin-bottom:8px;line-height:1.2">Matéria IA</div>
+          <div style="font-size:14px;color:#a8d5bb;line-height:1.5">Página de matéria com sumário gerado por IA, pontos-chave, conexões com serviços do Sistema Indústria e conteúdos relacionados.</div>
+        </div>
+        <div style="padding:18px 28px;border-top:1px solid #eef1f5;display:flex;align-items:center;justify-content:space-between">
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <span style="background:#e8f5f0;color:#083828;font-size:11px;font-weight:700;padding:3px 9px;border-radius:100px">Sumário IA</span>
+            <span style="background:#e8f5f0;color:#083828;font-size:11px;font-weight:700;padding:3px 9px;border-radius:100px">Pontos-chave</span>
+          </div>
+          <span style="color:#0096d6;font-size:18px;font-weight:300">→</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- POC Doc -->
+    <a href="POC Busca Semântica.dc.html" style="background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e3e6ea;display:flex;align-items:center;gap:0">
+      <div style="background:#1e2a3a;padding:28px 32px;width:280px;flex:none">
+        <div style="font-size:11px;font-weight:700;letter-spacing:.08em;color:#8fd3f7;margin-bottom:10px">DOCUMENTO TÉCNICO</div>
+        <div style="font-size:20px;font-weight:800;color:#fff;line-height:1.2">POC Busca Semântica</div>
+      </div>
+      <div style="padding:24px 28px;flex:1">
+        <div style="font-size:14px;color:#4a5568;line-height:1.55;margin-bottom:14px">Stack completo para montar a POC: Supabase pgvector + OpenAI Embeddings + Claude Haiku + FastAPI. Código pronto, timeline de 5 dias, custo estimado de R$ 3–10/mês.</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <span style="background:#f0f4f8;color:#3a4757;font-size:11px;font-weight:700;padding:3px 9px;border-radius:100px">pgvector</span>
+          <span style="background:#f0f4f8;color:#3a4757;font-size:11px;font-weight:700;padding:3px 9px;border-radius:100px">OpenAI Embeddings</span>
+          <span style="background:#f0f4f8;color:#3a4757;font-size:11px;font-weight:700;padding:3px 9px;border-radius:100px">Claude Haiku</span>
+          <span style="background:#f0f4f8;color:#3a4757;font-size:11px;font-weight:700;padding:3px 9px;border-radius:100px">FastAPI</span>
+        </div>
+      </div>
+      <div style="padding:28px 24px;flex:none">
+        <span style="color:#0096d6;font-size:20px;font-weight:300">→</span>
+      </div>
+    </a>
+
+    <!-- Rodapé -->
+    <div style="margin-top:48px;padding-top:24px;border-top:1px solid #e3e6ea;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+      <div style="display:flex;align-items:center;gap:10px">
+        <svg viewBox="0 0 24 24" width="13" height="13" style="fill:#0096d6"><path d="M12 1.5l1.9 7.2 7.1 1.9-7.1 1.9L12 19.7l-1.9-7.2L3 10.6l7.1-1.9z"/></svg>
+        <span style="font-size:13px;color:#8a94a0">Agência de Notícias da Indústria · CNI · 2026</span>
+      </div>
+      <span style="font-size:12px;color:#b5bec8">3 protótipos · IA · RAG · Busca Semântica</span>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
