@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'IBM Plex Sans',sans-serif;color:#1b2733;background:#fff;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,h4{font-family:'Libre Franklin',sans-serif;line-height:1.12}
+  a{color:inherit;text-decoration:none}
+  @keyframes iaPulse{0%,100%{opacity:.5;transform:scale(.85)}50%{opacity:1;transform:scale(1)}}
+</style>
+</helmet>
+
+<div style="width: 100%; background: #fff">
+
+  <!-- ===== TOP NAVY BAR ===== -->
+  <div style="width:100%;background:#0b1f44;color:#fff">
+    <div style="max-width:1180px;margin:0 auto;padding:0 24px;height:38px;display:flex;align-items:center;gap:22px;font-size:13px;font-weight:600;letter-spacing:.04em">
+      <span style="opacity:.8">⌂</span>
+      <span>CNI</span><span style="opacity:.85">SESI</span><span style="opacity:.85">SENAI</span><span style="opacity:.85">IEL</span>
+    </div>
+  </div>
+
+  <!-- ===== UTILITY GRAY BAR ===== -->
+  <div style="width:100%;background:#ededed;border-bottom:1px solid #e2e2e2">
+    <div style="max-width:1180px;margin:0 auto;padding:0 24px;height:40px;display:flex;align-items:center;gap:28px;font-size:13px;color:#5a5f66">
+      <span>Sala de Imprensa</span><span>Multimídia</span><span>Expediente</span>
+      <span style="margin-left:auto;display:flex;gap:14px;color:#7a7f86">f &nbsp; t &nbsp; ◎ &nbsp; •• &nbsp; in</span>
+    </div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <div style="width:100%;background:#fff">
+    <div style="max-width:1180px;margin:0 auto;padding:26px 24px 18px;display:flex;align-items:center;gap:24px">
+      <div style="display:flex;align-items:center;gap:10px;color:#5a5f66;font-size:14px;font-weight:600;letter-spacing:.05em">
+        <span style="font-size:18px">☰</span> MENU
+      </div>
+      <h1 style="flex:1;text-align:center;font-size:26px;font-weight:700;color:#2a2f36;letter-spacing:.01em">agência de notícias da indústria</h1>
+      <div style="display:flex;align-items:center;gap:8px;color:#5a5f66;font-size:14px;font-weight:600;letter-spacing:.05em">BUSCA <span style="font-size:16px">⌕</span></div>
+    </div>
+    <div style="max-width:1180px;margin:0 auto;padding:0 24px">
+      <div style="border-top:1px solid #e3e6ea;border-bottom:1px solid #e3e6ea;display:flex;justify-content:center;gap:30px;padding:14px 0;font-size:14.5px;color:#3a4048;font-weight:500">
+        <span>notícias</span><span>entrevistas</span><span>artigos</span><span>posicionamentos</span><span>dicas da indústria</span><span>na mídia</span><span>reportagens especiais</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== RESUMO EXECUTIVO · TOPO DA HOME ===== -->
+  <div style="width: 100%; margin-top: 0; padding-top: 22px">
+    <div style="max-width:1180px;margin:0 auto;padding:0 24px">
+      <div style="background:linear-gradient(120deg,#0b1f44 0%,#10377a 60%,#0b1f44 100%);border-radius:6px;overflow:hidden;color:#fff;display:grid;grid-template-columns:1.55fr 1fr">
+        <div style="padding:30px 36px">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px">
+            <div style="display:flex;align-items:center;gap:7px;padding:5px 11px;background:rgba(0,150,214,.18);border:1px solid rgba(120,200,245,.4);border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.08em;color:#8fd3f7">
+              <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#41d18a;animation:iaPulse 2s infinite"></span>RESUMO EXECUTIVO · IA
+            </div>
+            <span style="font-size:12.5px;color:#9fb2cf">Quinta, 18 de junho de 2026</span>
+          </div>
+          <h2 style="font-size:28px;font-weight:800;letter-spacing:-.01em">O dia da indústria em 5 pontos</h2>
+          <div style="margin-top:18px;display:flex;flex-direction:column;gap:11px">
+            <div style="display:flex;gap:12px;font-size:14.5px;line-height:1.4"><span style="color:#41d18a;font-weight:700">01</span><span>CNI critica corte tímido da Selic; taxa segue penalizando a economia industrial.</span></div>
+            <div style="display:flex;gap:12px;font-size:14.5px;line-height:1.4"><span style="color:#41d18a;font-weight:700">02</span><span>Indústria propõe marco para o reúso de água em documento a pré-candidatos à Presidência.</span></div>
+            <div style="display:flex;gap:12px;font-size:14.5px;line-height:1.4"><span style="color:#41d18a;font-weight:700">03</span><span>SENAI e Cisco lançam curso de redes para acelerar a indústria 4.0.</span></div>
+            <div style="display:flex;gap:12px;font-size:14.5px;line-height:1.4"><span style="color:#41d18a;font-weight:700">04</span><span>45% das indústrias preveem alta do endividamento bancário no próximo trimestre.</span></div>
+            <div style="display:flex;gap:12px;font-size:14.5px;line-height:1.4"><span style="color:#41d18a;font-weight:700">05</span><span>IEL abre 2,3 mil vagas de estágio em todo o país.</span></div>
+          </div>
+        </div>
+        <div style="background:rgba(255,255,255,.04);border-left:1px solid rgba(255,255,255,.1);padding:30px 28px;display:flex;flex-direction:column;justify-content:center;gap:13px">
+          <div style="font-size:12px;color:#9fb2cf;letter-spacing:.04em">Gerado às 07h · atualizado às 14h · 5 fontes do portal</div>
+          <button style="display:flex;align-items:center;gap:10px;background:#0096d6;color:#fff;border:none;padding:13px 16px;border-radius:5px;font-size:14px;font-weight:600;font-family:inherit;cursor:pointer">▷ Ouvir o briefing (2 min)</button>
+          <button style="display:flex;align-items:center;gap:10px;background:transparent;color:#fff;border:1px solid rgba(255,255,255,.35);padding:13px 16px;border-radius:5px;font-size:14px;font-weight:600;font-family:inherit;cursor:pointer">✉ Receber por e-mail às 7h</button>
+          <button style="display:flex;align-items:center;gap:10px;background:transparent;color:#cfe2f5;border:none;padding:4px 0;font-size:13px;font-weight:600;font-family:inherit;cursor:pointer;text-align:left">⤢ Ver as 5 notícias-fonte →</button>
+        </div>
+      </div>
+      <p style="margin-top:10px;font-size:12.5px;color:#8a94a0;display:flex;align-items:center;gap:6px"><span style="color:#0096d6">↳</span> Faixa de briefing no topo da home; também entregue como e-mail diário e card no app das lideranças.</p>
+    </div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <div style="max-width:1180px;margin:0 auto;padding:24px 24px 8px;display:grid;grid-template-columns:1fr 360px;gap:34px">
+    <div>
+      <div style="display:flex;gap:22px">
+        <a href="Materia%20IA.dc.html" style="display:block;width:320px;height:185px;flex:none;background:linear-gradient(145deg,#0b2244 0%,#1a4f8a 60%,#0d3a6e 100%);border-radius:2px;position:relative;overflow:hidden;text-decoration:none"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.022) 0,rgba(255,255,255,.022) 1px,transparent 1px,transparent 9px)"></div><div style="position:absolute;top:0;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 48 36" width="48" height="36" style="opacity:.12"><rect x="0" y="0" width="48" height="36" fill="none" stroke="white" stroke-width="2"></rect><polygon points="20,10 38,18 20,26" fill="white"></polygon></svg></div><div style="position:absolute;bottom:0;left:0;right:0;padding:8px 10px"><span style="font-size:9px;color:rgba(255,255,255,.38)">Foto: Agência Brasil · CNI</span></div></a>
+        <div>
+          <div style="font-size:11px;font-weight:700;letter-spacing:.12em;color:#0096d6;margin-bottom:10px">POSICIONAMENTOS</div>
+          <a href="Materia%20IA.dc.html" style="text-decoration:none;display:block"><h2 style="font-size:27px;font-weight:700;color:#1a5fa8;line-height:1.18">CNI: Corte de juros não reverte prejuízos e taxa Selic segue penalizando economia brasileira</h2></a>
+          <p style="margin-top:12px;font-size:14px;color:#5a5f66;line-height:1.5">Novo patamar dos juros está 3,1 pontos percentuais acima do que deveria, segundo a instituição. Presidente Ricardo Alban diz que Copom deve intensificar ciclo de cortes.</p>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;margin-top:22px;border-top:1px solid #eef1f4;padding-top:16px">
+        <a href="Materia%20IA.dc.html" style="display:block;font-size:12.5px;color:#3a4048;line-height:1.4;text-decoration:none"><span style="color:#0096d6;font-weight:700">• ECONOMIA</span> "0,25% jamais pode ser comemorado", diz presidente da CNI</a>
+        <a href="Materia%20IA.dc.html" style="display:block;font-size:12.5px;color:#3a4048;line-height:1.4;text-decoration:none"><span style="color:#0096d6;font-weight:700">• ECONOMIA</span> Por que a Selic a 15% preocupa a indústria? (Ep. #188)</a>
+        <a href="Materia%20IA.dc.html" style="display:block;font-size:12.5px;color:#3a4048;line-height:1.4;text-decoration:none"><span style="color:#0096d6;font-weight:700">• POSICIONAMENTOS</span> Atual taxa de juros agrava situação da economia</a>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <div style="font-size:11px;font-weight:700;letter-spacing:.1em;color:#0096d6">INFRAESTRUTURA</div>
+      <div style="font-size:13.5px;color:#2a2f36;line-height:1.4;border-bottom:1px solid #eef1f4;padding-bottom:14px">Política de pisos mínimos eleva em 16% os custos do frete para a indústria, aponta CNI</div>
+      <div style="font-size:11px;font-weight:700;letter-spacing:.1em;color:#0096d6">EDUCAÇÃO</div>
+      <div style="font-size:13.5px;color:#2a2f36;line-height:1.4;border-bottom:1px solid #eef1f4;padding-bottom:14px">Cisco e SENAI lançam curso de redes industriais para qualificar profissionais da indústria 4.0</div>
+      <div style="font-size:11px;font-weight:700;letter-spacing:.1em;color:#0096d6">EDUCAÇÃO</div>
+      <div style="font-size:13.5px;color:#2a2f36;line-height:1.4">Prêmio IEL 2026 abre inscrições para projetos de inovação</div>
+    </div>
+  </div>
+
+  <!-- ===== SECONDARY FEATURED BAND ===== -->
+  <div style="width:100%;background:#f2f3f5;margin-top:22px">
+    <div style="max-width:1180px;margin:0 auto;padding:28px 24px;display:grid;grid-template-columns:1fr 360px;gap:34px;align-items:stretch">
+      <div style="position:relative;border-radius:3px;overflow:hidden;min-height:320px">
+        <div style="display:block;width:100%;height:100%;position:absolute;inset:0;background:linear-gradient(160deg,#042014 0%,#0a4828 50%,#126038 100%)"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.018) 0,rgba(255,255,255,.018) 1px,transparent 1px,transparent 10px)"></div></div>
+        <div style="position:absolute;left:0;right:0;bottom:0;padding:24px;background:linear-gradient(to top,rgba(8,18,38,.92),rgba(8,18,38,0))">
+          <div style="display:flex;gap:8px;margin-bottom:10px">
+            <span style="background:#0096d6;color:#fff;font-size:10px;font-weight:700;letter-spacing:.07em;padding:4px 9px;border-radius:3px">NOTÍCIAS</span>
+            <span style="background:rgba(255,255,255,.18);color:#fff;font-size:10px;font-weight:700;letter-spacing:.07em;padding:4px 9px;border-radius:3px">SUSTENTABILIDADE</span>
+          </div>
+          <a href="Materia%20IA.dc.html" style="text-decoration:none"><h2 style="color:#fff;font-size:24px;font-weight:700;line-height:1.22;max-width:560px">Indústria propõe regulamentação do reúso de água em documento a pré-candidatos à Presidência</h2></a>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:16px;justify-content:center">
+        <div style="display:flex;gap:13px;border-bottom:1px solid #e3e6ea;padding-bottom:16px">
+          <div style="width:74px;height:54px;flex:none;background:linear-gradient(135deg,#1a1208,#4a3018);border-radius:2px;position:relative;overflow:hidden"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.03) 0,rgba(255,255,255,.03) 1px,transparent 1px,transparent 6px)"></div></div>
+          <div><div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#0096d6;margin-bottom:4px">INFRAESTRUTURA</div><div style="font-size:13px;color:#2a2f36;line-height:1.35">Política de pisos mínimos eleva em 16% os custos do frete para a indústria</div></div>
+        </div>
+        <div style="display:flex;gap:13px;border-bottom:1px solid #e3e6ea;padding-bottom:16px">
+          <div style="width:74px;height:54px;flex:none;background:linear-gradient(135deg,#0a1820,#1a4460);border-radius:2px;position:relative;overflow:hidden"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.03) 0,rgba(255,255,255,.03) 1px,transparent 1px,transparent 6px)"></div></div>
+          <div><div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#0096d6;margin-bottom:4px">EDUCAÇÃO</div><div style="font-size:13px;color:#2a2f36;line-height:1.35">Cisco e SENAI lançam curso de redes industriais para a indústria 4.0</div></div>
+        </div>
+        <div style="display:flex;gap:13px">
+          <div style="width:74px;height:54px;flex:none;background:linear-gradient(135deg,#0a1c14,#1a5030);border-radius:2px;position:relative;overflow:hidden"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.03) 0,rgba(255,255,255,.03) 1px,transparent 1px,transparent 6px)"></div></div>
+          <div><div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#0096d6;margin-bottom:4px">EDUCAÇÃO</div><div style="font-size:13px;color:#2a2f36;line-height:1.35">Prêmio IEL 2026 abre inscrições para projetos de inovação</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== WEBSTORIES ===== -->
+  <div style="max-width:1180px;margin:0 auto;padding:30px 24px 0">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+      <div style="font-size:18px;font-weight:700;color:#1b2733;border-left:3px solid #0096d6;padding-left:10px">Webstories</div>
+      <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#1a7fc4;font-weight:600">Navegue pela galeria <span style="width:28px;height:28px;border:1px solid #cfe0ef;border-radius:50%;display:flex;align-items:center;justify-content:center">‹</span><span style="width:28px;height:28px;border:1px solid #cfe0ef;border-radius:50%;display:flex;align-items:center;justify-content:center">›</span></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px">
+      <div style="position:relative;height:230px;border-radius:3px;overflow:hidden;background:linear-gradient(145deg,#6a1212,#a01e1e)"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0,rgba(255,255,255,.025) 1px,transparent 1px,transparent 8px)"></div><div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(50,4,4,.88),rgba(50,4,4,0) 62%)"></div><div style="position:absolute;left:0;right:0;bottom:0;padding:14px;color:#fff;font-size:13px;font-weight:700;line-height:1.25">Dia da Indústria: o setor que move o Brasil</div></div>
+      <div style="position:relative;height:230px;border-radius:3px;overflow:hidden;background:linear-gradient(145deg,#083828,#0e5c3e)"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0,rgba(255,255,255,.025) 1px,transparent 1px,transparent 8px)"></div><div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(4,28,18,.88),rgba(4,28,18,0) 62%)"></div><div style="position:absolute;left:0;right:0;bottom:0;padding:14px;color:#fff;font-size:13px;font-weight:700;line-height:1.25">O que vai rolar no SESI Lab neste feriado?</div></div>
+      <div style="position:relative;height:230px;border-radius:3px;overflow:hidden;background:linear-gradient(145deg,#1e0c38,#3a1a62)"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0,rgba(255,255,255,.025) 1px,transparent 1px,transparent 8px)"></div><div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(14,4,30,.88),rgba(14,4,30,0) 62%)"></div><div style="position:absolute;left:0;right:0;bottom:0;padding:14px;color:#fff;font-size:13px;font-weight:700;line-height:1.25">A Jornada de Inovação chegou ao fim</div></div>
+      <div style="position:relative;height:230px;border-radius:3px;overflow:hidden;background:linear-gradient(145deg,#0b1a42,#1c3880)"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0,rgba(255,255,255,.025) 1px,transparent 1px,transparent 8px)"></div><div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(4,10,34,.88),rgba(4,10,34,0) 62%)"></div><div style="position:absolute;left:0;right:0;bottom:0;padding:14px;color:#fff;font-size:13px;font-weight:700;line-height:1.25">A abertura do Congresso de Inovação</div></div>
+      <div style="position:relative;height:230px;border-radius:3px;overflow:hidden;background:linear-gradient(145deg,#2e0e06,#5a2010)"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0,rgba(255,255,255,.025) 1px,transparent 1px,transparent 8px)"></div><div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(24,6,2,.88),rgba(24,6,2,0) 62%)"></div><div style="position:absolute;left:0;right:0;bottom:0;padding:14px;color:#fff;font-size:13px;font-weight:700;line-height:1.25">Tour pelo Festival SESI de Educação</div></div>
+    </div>
+  </div>
+
+  <!-- ===== THREE CARDS ===== -->
+  <div style="max-width:1180px;margin:0 auto;padding:30px 24px 0;display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px">
+    <div>
+      <div style="font-size:14px;font-weight:700;color:#1b2733;border-left:3px solid #0096d6;padding-left:9px;margin-bottom:12px">Até sexta-feira (19/6)</div>
+      <a href="Materia%20IA.dc.html" style="display:block;width:100%;height:150px;background:linear-gradient(145deg,#0d1e36,#1e4878);border-radius:2px;position:relative;overflow:hidden;text-decoration:none"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.02) 0,rgba(255,255,255,.02) 1px,transparent 1px,transparent 9px)"></div></a>
+      <div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#8a94a0;margin-top:12px">INSTITUCIONAL</div>
+      <a href="Materia%20IA.dc.html" style="display:block;font-size:15px;font-weight:700;color:#1a5fa8;line-height:1.3;margin-top:5px;text-decoration:none">Credenciamento de imprensa para evento da CNI com pré-candidatos ao Planalto vai até sexta-feira</a>
+    </div>
+    <div>
+      <div style="font-size:14px;font-weight:700;color:#1b2733;border-left:3px solid #0096d6;padding-left:9px;margin-bottom:12px">Pesquisa inédita</div>
+      <a href="Materia%20IA.dc.html" style="display:block;width:100%;height:150px;background:linear-gradient(145deg,#1c1010,#4a2020);border-radius:2px;position:relative;overflow:hidden;text-decoration:none"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.02) 0,rgba(255,255,255,.02) 1px,transparent 1px,transparent 9px)"></div></a>
+      <div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#8a94a0;margin-top:12px">ECONOMIA</div>
+      <a href="Materia%20IA.dc.html" style="display:block;font-size:15px;font-weight:700;color:#1a5fa8;line-height:1.3;margin-top:5px;text-decoration:none">CNI: 45% das empresas industriais esperam alta do endividamento bancário no próximo trimestre</a>
+    </div>
+    <div>
+      <div style="font-size:14px;font-weight:700;color:#1b2733;border-left:3px solid #0096d6;padding-left:9px;margin-bottom:12px">Confira as oportunidades</div>
+      <a href="Materia%20IA.dc.html" style="display:block;width:100%;height:150px;background:linear-gradient(145deg,#0a1e14,#1a5030);border-radius:2px;position:relative;overflow:hidden;text-decoration:none"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.02) 0,rgba(255,255,255,.02) 1px,transparent 1px,transparent 9px)"></div></a>
+      <div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#8a94a0;margin-top:12px">EDUCAÇÃO</div>
+      <a href="Materia%20IA.dc.html" style="display:block;font-size:15px;font-weight:700;color:#1a5fa8;line-height:1.3;margin-top:5px;text-decoration:none">Tem vaga no arraiá do IEL! São mais de 2,3 mil oportunidades de estágio em todo o país</a>
+    </div>
+  </div>
+
+  <!-- ===== MODULE: TERMÔMETRO (IA) ===== -->
+  <div style="width: 100%; margin-top: 38px; background: #f4f6f9; border-top: 1px solid #e8ecf0; border-bottom: 1px solid #e8ecf0">
+    <div style="max-width:1180px;margin:0 auto;padding:32px 24px 36px">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:14px">
+        <div>
+          <div style="display:flex;align-items:center;gap:9px;margin-bottom:8px">
+            <svg viewBox="0 0 24 24" width="15" height="15" style="fill:#0096d6"><path d="M12 1.5l1.9 7.2 7.1 1.9-7.1 1.9L12 19.7l-1.9-7.2L3 10.6l7.1-1.9z"></path></svg>
+            <span style="font-size:11px;font-weight:700;letter-spacing:.1em;color:#0096d6">TERMÔMETRO DE TEMAS · IA</span>
+          </div>
+          <h2 style="font-size:26px;font-weight:700;color:#1b2733">O que move a indústria esta semana</h2>
+          <p style="margin-top:6px;font-size:13.5px;color:#6b7682">Volume e variação da cobertura nos últimos 7 dias — clusterizado automaticamente pela IA.</p>
+        </div>
+        <div style="display:flex;gap:0;border:1px solid #d4dbe2;border-radius:6px;overflow:hidden;background:#fff">
+          <button onClick="{{ setTema }}" style="{{ temaBtnStyle }}">Por tema</button>
+          <button onClick="{{ setRegiao }}" style="{{ regiaoBtnStyle }}">Por região</button>
+        </div>
+      </div>
+      <div style="margin-top:24px;background:#fff;border:1px solid #e6eaef;border-radius:8px;padding:22px 26px;display:flex;flex-direction:column;gap:16px">
+        <sc-for list="{{ thermoBars }}" as="bar" hint-placeholder-count="6">
+          <div style="display:flex;align-items:center;gap:16px">
+            <div style="width:300px;flex:none;font-size:14px;font-weight:600;color:#2a2f36">{{ bar.t }}</div>
+            <div style="flex:1;height:14px;background:#eef1f5;border-radius:7px;overflow:hidden">
+              <div style="height:100%;border-radius:7px;background:linear-gradient(90deg,#0b2f63,#0096d6);width:{{ bar.width }}"></div>
+            </div>
+            <div style="width:42px;flex:none;text-align:right;font-size:14px;font-weight:700;color:#1b2733">{{ bar.v }}</div>
+            <div style="width:64px;flex:none;text-align:right;font-size:12.5px;font-weight:700;color:{{ bar.color }}">{{ bar.arrow }} {{ bar.delta }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FEDERAÇÕES BAND ===== -->
+  <div style="width:100%;background:#0f8ed4;color:#fff">
+    <div style="max-width:1180px;margin:0 auto;padding:30px 24px;display:grid;grid-template-columns:1fr 300px;gap:34px">
+      <div>
+        <div style="font-size:16px;font-weight:700;letter-spacing:.02em;border-bottom:1px solid rgba(255,255,255,.3);padding-bottom:12px;margin-bottom:18px">NOTÍCIAS DAS FEDERAÇÕES DAS INDÚSTRIAS</div>
+        <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:18px;font-size:12px;line-height:1.7">
+          <div><div style="background:rgba(255,255,255,.18);padding:4px 8px;border-radius:3px;font-weight:700;font-size:11px;display:inline-block;margin-bottom:8px">NORTE</div><div style="font-weight:600">FIEAC · FIEAM · FIEPA · FIER · FIERO · FIETO · SENAI/AP</div></div>
+          <div><div style="background:rgba(255,255,255,.18);padding:4px 8px;border-radius:3px;font-weight:700;font-size:11px;display:inline-block;margin-bottom:8px">CENTRO-OESTE</div><div style="font-weight:600">FIBRA · FIEG · FIEMS · FIEMT</div></div>
+          <div><div style="background:rgba(255,255,255,.18);padding:4px 8px;border-radius:3px;font-weight:700;font-size:11px;display:inline-block;margin-bottom:8px">SUL</div><div style="font-weight:600">FIEPR · FIERGS · FIESC</div></div>
+          <div><div style="background:rgba(255,255,255,.18);padding:4px 8px;border-radius:3px;font-weight:700;font-size:11px;display:inline-block;margin-bottom:8px">SUDESTE</div><div style="font-weight:600">CETIQT · FIEMG · FIESP · FINDES · FIRJAN</div></div>
+          <div><div style="background:rgba(255,255,255,.18);padding:4px 8px;border-radius:3px;font-weight:700;font-size:11px;display:inline-block;margin-bottom:8px">NORDESTE</div><div style="font-weight:600">FIEA · FIEB · FIEC · FIEMA · FIEPB · FIEPE · FIEPI · FIERN · FIES</div></div>
+        </div>
+      </div>
+      <div style="background:#fff;border-radius:6px;padding:20px;display:flex;flex-direction:column;justify-content:center;color:#1b2733">
+        <div style="font-size:10.5px;font-weight:700;letter-spacing:.1em;color:#8a94a0;margin-bottom:8px">PODCAST</div>
+        <div style="font-size:22px;font-weight:800;color:#7b2ff0;line-height:1.1;font-family:'Libre Franklin',sans-serif">indústria<br>de A a Z</div>
+        <div style="margin-top:14px;display:flex;align-items:center;gap:8px;font-size:12px;color:#6b7682">Acesse agora no <span style="background:#1db954;color:#fff;font-weight:700;border-radius:100px;padding:3px 10px;font-size:11px">Spotify</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== MODULE: BANCO SEMÂNTICO (IA, interativo) ===== -->
+  <div style="max-width: 1180px; margin: 42px auto 0; padding: 0 24px">
+    <div style="display:flex;align-items:center;gap:9px;margin-bottom:8px">
+      <svg viewBox="0 0 24 24" width="15" height="15" style="fill:#0096d6"><path d="M12 1.5l1.9 7.2 7.1 1.9-7.1 1.9L12 19.7l-1.9-7.2L3 10.6l7.1-1.9z"></path></svg>
+      <span style="font-size:11px;font-weight:700;letter-spacing:.1em;color:#0096d6">BANCO SEMÂNTICO · IA</span>
+    </div>
+    <h2 style="font-size:26px;font-weight:700;color:#1b2733">Notícias conectadas ao Sistema Indústria</h2>
+    <p style="margin-top:6px;font-size:13.5px;color:#6b7682;max-width:760px">Cada notícia é relacionada por contexto a outras matérias <b>e</b> a serviços concretos do <a href="https://www.sistemaindustria.portaldaindustria.com.br/nossos-servicos" target="_blank" style="color:#0096d6;font-weight:600;border-bottom:1px solid #cfe6f6">catálogo do Sistema Indústria</a>. Selecione uma manchete para ver as conexões.</p>
+
+    <div style="margin-top:22px;display:grid;grid-template-columns:300px 1fr;gap:22px;align-items:start">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <sc-for list="{{ tabs }}" as="tab" hint-placeholder-count="4">
+          <div onClick="{{ tab.onClick }}" style="{{ tab.style }}">
+            <div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:{{ tab.catColor }};margin-bottom:5px">{{ tab.cat }}</div>
+            <div style="font-size:13.5px;font-weight:600;line-height:1.32;color:{{ tab.titleColor }}">{{ tab.title }}</div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="border:1px solid #e6eaef;border-radius:10px;overflow:hidden;background:#fff;box-shadow:0 1px 3px rgba(11,31,68,.06)">
+        <div style="padding:22px 26px;border-bottom:1px solid #eef1f5;background:#fbfcfe">
+          <div style="font-size:11px;font-weight:700;letter-spacing:.08em;color:#0096d6;margin-bottom:8px">{{ current.cat }}</div>
+          <h3 style="font-size:20px;font-weight:700;color:#16335f;line-height:1.25">{{ current.title }}</h3>
+          <p style="margin-top:8px;font-size:13.5px;color:#6b7682;line-height:1.45">{{ current.summary }}</p>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr">
+          <div style="padding:20px 24px;border-right:1px solid #eef1f5">
+            <div style="font-size:11px;font-weight:700;letter-spacing:.06em;color:#8a94a0;margin-bottom:14px">↺ NOTÍCIAS RELACIONADAS</div>
+            <div style="display:flex;flex-direction:column;gap:13px">
+              <sc-for list="{{ current.related }}" as="r" hint-placeholder-count="3">
+                <div style="border-left:2px solid #d4dbe2;padding-left:12px">
+                  <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#0096d6;margin-bottom:3px">{{ r.cat }}</div>
+                  <div style="font-size:13px;color:#2a2f36;line-height:1.35">{{ r.t }}</div>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+          <div style="padding:20px 24px;background:#fbfcfe">
+            <div style="font-size:11px;font-weight:700;letter-spacing:.06em;color:#0b1f44;margin-bottom:14px">◆ CONEXÕES SISTEMA INDÚSTRIA</div>
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <sc-for list="{{ current.suggestions }}" as="s" hint-placeholder-count="3">
+                <a href="https://www.sistemaindustria.portaldaindustria.com.br/nossos-servicos" target="_blank" style="display:flex;gap:12px;padding:12px;border:1px solid #e9edf2;border-radius:8px;background:#fff">
+                  <div style="width:4px;flex:none;border-radius:3px;background:{{ s.color }}"></div>
+                  <div style="flex:1">
+                    <div style="display:flex;align-items:center;gap:8px;margin-bottom:3px">
+                      <span style="font-size:10.5px;font-weight:800;letter-spacing:.04em;color:{{ s.color }}">{{ s.brand }}</span>
+                      <span style="font-size:13.5px;font-weight:700;color:#1b2733">{{ s.label }}</span>
+                    </div>
+                    <div style="font-size:12px;color:#6b7682;line-height:1.4">{{ s.desc }}</div>
+                  </div>
+                  <span style="color:#b5bec8;font-size:16px;align-self:center">›</span>
+                </a>
+              </sc-for>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ARTIGOS ===== -->
+  <div style="max-width:1180px;margin:44px auto 0;padding:0 24px;display:grid;grid-template-columns:300px 1fr;gap:34px;align-items:start">
+    <div>
+      <div style="width:100%;height:150px;background:linear-gradient(145deg,#0d1030,#1e2870);border-radius:2px;position:relative;overflow:hidden"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.02) 0,rgba(255,255,255,.02) 1px,transparent 1px,transparent 9px)"></div></div>
+      <div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#8a94a0;margin-top:12px">DICAS DA INDÚSTRIA</div>
+      <div style="font-size:16px;font-weight:700;color:#1a5fa8;line-height:1.3;margin-top:5px">4 cursos do SENAI de inteligência artificial para não ficar para trás no mercado</div>
+      <div style="font-size:12.5px;color:#3a4048;line-height:1.4;margin-top:10px"><span style="color:#0096d6;font-weight:700">• DICAS DA INDÚSTRIA</span> 10 cursos para transformar a gestão do seu negócio em 2026</div>
+    </div>
+    <div>
+      <div style="font-size:18px;font-weight:700;color:#1b2733;border-left:3px solid #0096d6;padding-left:10px;margin-bottom:18px">Artigos</div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px">
+        <div style="text-align:center"><div style="width:64px;height:64px;border-radius:50%;background:#d9dee5;margin:0 auto"></div><div style="font-size:13px;color:#c0392b;font-style:italic;line-height:1.35;margin-top:12px;min-height:54px">Aproveite enquanto o front é tesoureiro</div><div style="font-size:11px;font-weight:700;letter-spacing:.06em;color:#3a4048;margin-top:8px">ALEX CARVALHO</div></div>
+        <div style="text-align:center"><div style="width:64px;height:64px;border-radius:50%;background:#d9dee5;margin:0 auto"></div><div style="font-size:13px;color:#c0392b;font-style:italic;line-height:1.35;margin-top:12px;min-height:54px">Estado de Coisas Inconstitucional dos produtos industriais pirateados</div><div style="font-size:11px;font-weight:700;letter-spacing:.06em;color:#3a4048;margin-top:8px">ALEXANDRE VITORINO</div></div>
+        <div style="text-align:center"><div style="width:64px;height:64px;border-radius:50%;background:#d9dee5;margin:0 auto"></div><div style="font-size:13px;color:#c0392b;font-style:italic;line-height:1.35;margin-top:12px;min-height:54px">O Senado e a hora da responsabilidade</div><div style="font-size:11px;font-weight:700;letter-spacing:.06em;color:#3a4048;margin-top:8px">SYLVIA LORENA</div></div>
+        <div style="text-align:center"><div style="width:64px;height:64px;border-radius:50%;background:#d9dee5;margin:0 auto"></div><div style="font-size:13px;color:#c0392b;font-style:italic;line-height:1.35;margin-top:12px;min-height:54px">Em defesa dos empregos e da economia: não às blusinhas</div><div style="font-size:11px;font-weight:700;letter-spacing:.06em;color:#3a4048;margin-top:8px">RICARDO ALBAN</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== AD BANNER ===== -->
+  <div style="max-width:1180px;margin:40px auto 0;padding:0 24px">
+    <div style="background:linear-gradient(100deg,#16409a,#2f7fd6);border-radius:4px;padding:22px 34px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap">
+      <div style="font-size:24px;font-weight:800;color:#fff;font-family:'Libre Franklin',sans-serif">A INDÚSTRIA CRIA, <span style="color:#ffd200">A INDÚSTRIA É MAIS</span></div>
+      <div style="display:flex;align-items:center;gap:22px">
+        <span style="background:#fff;color:#16409a;font-weight:700;font-size:13px;padding:11px 20px;border-radius:4px">Descubra mais</span>
+        <span style="color:#fff;font-size:18px;font-weight:800;font-family:'Libre Franklin',sans-serif">Sistema <span style="color:#ffd200">INDÚSTRIA</span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== DESCARBONIZAÇÃO (full-bleed reportagem) ===== -->
+  <div style="max-width:1180px;margin:30px auto 0;padding:0 24px">
+    <div style="position:relative;border-radius:3px;overflow:hidden;min-height:360px">
+      <div style="display:block;width:100%;height:100%;position:absolute;inset:0;background:linear-gradient(170deg,#030d06 0%,#0a2e14 35%,#144a24 65%,#0c2e16 100%)"><div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.014) 0,rgba(255,255,255,.014) 1px,transparent 1px,transparent 11px)"></div></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,22,16,.9),rgba(8,22,16,.15));pointer-events:none"></div>
+      <div style="position:absolute;left:0;right:0;bottom:0;padding:34px 40px;pointer-events:none">
+        <span style="background:rgba(255,255,255,.2);color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.08em;padding:5px 11px;border-radius:3px">REPORTAGENS ESPECIAIS</span>
+        <h2 style="color:#fff;font-size:52px;font-weight:800;letter-spacing:.04em;margin-top:14px;font-family:'Libre Franklin',sans-serif">DESCARBONIZAÇÃO</h2>
+        <p style="color:#e8efe9;font-size:16px;max-width:640px;margin-top:8px;line-height:1.4">Descarbonização em cena: a jornada de indústrias intensivas em energia para reduzir a pegada de carbono</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ESTATÍSTICAS / REVISTA ===== -->
+  <div style="max-width:1180px;margin:24px auto 0;padding:0 24px;display:grid;grid-template-columns:1fr 1fr;gap:24px">
+    <div style="background:#0e63b3;border-radius:3px;padding:30px 32px;color:#fff;display:flex;align-items:center;gap:18px">
+      <div style="font-size:38px">📊</div>
+      <div><div style="font-size:24px;font-weight:800;font-family:'Libre Franklin',sans-serif">ESTATÍSTICAS CNI</div><div style="font-size:13.5px;color:#cfe2f5;margin-top:4px">Acompanhe as últimas publicações.</div></div>
+    </div>
+    <div style="background:#1b2c4a;border-radius:3px;padding:30px 32px;color:#fff;display:flex;align-items:center;justify-content:flex-end;gap:18px">
+      <div style="text-align:right"><div style="font-size:12px;color:#9fb2cf;letter-spacing:.06em">REVISTA DA</div><div style="font-size:24px;font-weight:800;font-family:'Libre Franklin',sans-serif;line-height:1.05">INDÚSTRIA<br>BRASILEIRA</div></div>
+      <div style="width:64px;height:84px;background:#d9dee5;border-radius:2px"></div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <div style="max-width:1180px;margin:40px auto 0;padding:0 24px 30px">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;border-top:1px solid #e3e6ea;padding-top:24px">
+      <div>
+        <div style="font-size:13px;font-weight:700;letter-spacing:.08em;color:#1b2733;border-bottom:1px solid #e3e6ea;padding-bottom:12px">MAIS ACESSADAS</div>
+        <div style="display:flex;flex-direction:column">
+          <div style="display:flex;gap:14px;align-items:baseline;padding:14px 0;border-bottom:1px solid #eef1f4"><span style="font-size:22px;font-weight:800;color:#0096d6;font-family:'Libre Franklin',sans-serif;line-height:1;flex:none;width:24px">1</span><div style="font-size:14px;color:#2a2f36;line-height:1.35"><span style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#8a94a0;display:block;margin-bottom:3px">POSICIONAMENTOS</span>CNI: corte de juros não reverte prejuízos e Selic segue penalizando a economia</div></div>
+          <div style="display:flex;gap:14px;align-items:baseline;padding:14px 0;border-bottom:1px solid #eef1f4"><span style="font-size:22px;font-weight:800;color:#0096d6;font-family:'Libre Franklin',sans-serif;line-height:1;flex:none;width:24px">2</span><div style="font-size:14px;color:#2a2f36;line-height:1.35"><span style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#8a94a0;display:block;margin-bottom:3px">EDUCAÇÃO</span>Tem vaga no arraiá do IEL! São mais de 2,3 mil oportunidades de estágio no país</div></div>
+          <div style="display:flex;gap:14px;align-items:baseline;padding:14px 0;border-bottom:1px solid #eef1f4"><span style="font-size:22px;font-weight:800;color:#0096d6;font-family:'Libre Franklin',sans-serif;line-height:1;flex:none;width:24px">3</span><div style="font-size:14px;color:#2a2f36;line-height:1.35"><span style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#8a94a0;display:block;margin-bottom:3px">ECONOMIA</span>45% das empresas industriais esperam alta do endividamento bancário</div></div>
+          <div style="display:flex;gap:14px;align-items:baseline;padding:14px 0;border-bottom:1px solid #eef1f4"><span style="font-size:22px;font-weight:800;color:#0096d6;font-family:'Libre Franklin',sans-serif;line-height:1;flex:none;width:24px">4</span><div style="font-size:14px;color:#2a2f36;line-height:1.35"><span style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#8a94a0;display:block;margin-bottom:3px">EDUCAÇÃO</span>Cisco e SENAI lançam curso de redes industriais para a indústria 4.0</div></div>
+          <div style="display:flex;gap:14px;align-items:baseline;padding:14px 0"><span style="font-size:22px;font-weight:800;color:#0096d6;font-family:'Libre Franklin',sans-serif;line-height:1;flex:none;width:24px">5</span><div style="font-size:14px;color:#2a2f36;line-height:1.35"><span style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#8a94a0;display:block;margin-bottom:3px">SUSTENTABILIDADE</span>Indústria propõe regulamentação do reúso de água a pré-candidatos</div></div>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:13px;font-weight:700;letter-spacing:.08em;color:#1b2733;border-bottom:1px solid #e3e6ea;padding-bottom:12px">SIGA A INDÚSTRIA</div>
+        <div style="display:flex;flex-direction:column;gap:0">
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eef1f4;padding:15px 0"><span style="font-size:13px;font-weight:700;letter-spacing:.04em;color:#1b2733">FACEBOOK <span style="color:#1a7fc4;font-weight:600">/cnibrasil</span></span><span style="color:#b5bec8">↗</span></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eef1f4;padding:15px 0"><span style="font-size:13px;font-weight:700;letter-spacing:.04em;color:#1b2733">X <span style="color:#1a7fc4;font-weight:600">@cni_br</span></span><span style="color:#b5bec8">↗</span></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eef1f4;padding:15px 0"><span style="font-size:13px;font-weight:700;letter-spacing:.04em;color:#1b2733">INSTAGRAM <span style="color:#1a7fc4;font-weight:600">@cnibr</span></span><span style="color:#b5bec8">↗</span></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eef1f4;padding:15px 0"><span style="font-size:13px;font-weight:700;letter-spacing:.04em;color:#1b2733">LINKEDIN <span style="color:#1a7fc4;font-weight:600">/cniweb</span></span><span style="color:#b5bec8">↗</span></div>
+          <div style="margin-top:18px;background:#0b1f44;border-radius:6px;padding:18px 20px;color:#fff"><div style="font-size:11px;font-weight:700;letter-spacing:.07em;color:#8fd3f7;margin-bottom:5px">NEWSLETTER DIÁRIA · IA</div><div style="font-size:14.5px;font-weight:700;line-height:1.3">Receba o resumo executivo da indústria às 7h, todos os dias.</div><div style="margin-top:12px;display:flex;gap:8px"><input placeholder="seu e-mail" style="flex:1;border:none;border-radius:5px;padding:9px 11px;font-family:inherit;font-size:13px;outline:none"><button style="background:#0096d6;color:#fff;border:none;border-radius:5px;padding:0 15px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer">Assinar</button></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="width:100%;background:#f2f2f2;border-top:1px solid #e6e6e6">
+    <div style="max-width:1180px;margin:0 auto;padding:26px 24px;display:flex;justify-content:center;gap:34px;color:#7a7f86;font-size:13px;font-weight:600">
+      <span>f /cnibrasil</span><span>t @CNI_br</span><span>◎ @cnibr</span><span>•• /cniweb</span><span>in /cniweb</span>
+    </div>
+  </div>
+  <div style="width:100%;background:#0b1f44;color:#aebacb">
+    <div style="max-width:1180px;margin:0 auto;padding:16px 24px;font-size:12px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <span>Agência de Notícias da Indústria 2026 © Todos os direitos reservados</span>
+      <span>Política de privacidade · Termos de uso</span>
+    </div>
+  </div>
+
+  <!-- ===== FLOATING ASSISTANT ===== -->
+  <div style="position:fixed;right:24px;bottom:24px;z-index:50;display:flex;flex-direction:column;align-items:flex-end;gap:12px">
+    <sc-if value="{{ open }}" hint-placeholder-val="{{ true }}">
+      <div style="width:408px;max-height:80vh;display:flex;flex-direction:column;background:#fff;border:1px solid #d4dde6;border-radius:14px;overflow:hidden;box-shadow:0 18px 56px rgba(11,31,68,.32)">
+
+        <!-- Header -->
+        <div style="background:linear-gradient(120deg,#0b1f44,#10377a);padding:16px 18px;color:#fff;display:flex;align-items:flex-start;gap:10px;flex:none">
+          <svg viewBox="0 0 24 24" width="17" height="17" style="fill:#8fd3f7;margin-top:2px"><path d="M12 1.5l1.9 7.2 7.1 1.9-7.1 1.9L12 19.7l-1.9-7.2L3 10.6l7.1-1.9z"></path></svg>
+          <div style="flex:1">
+            <div style="font-size:14.5px;font-weight:700">Assistente da Indústria</div>
+            <div style="font-size:11px;color:#aebfd6;margin-top:2px;display:flex;align-items:center;gap:6px">
+              <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#41d18a;animation:iaPulse 2s infinite"></span>
+              Busca semântica no acervo · Serviços do Sistema Indústria
+            </div>
+          </div>
+          <button onClick="{{ onToggle }}" style="background:transparent;border:none;color:#cfe2f5;font-size:19px;cursor:pointer;line-height:1;padding:0">×</button>
+        </div>
+
+        <!-- Thread -->
+        <div style="flex:1;overflow-y:auto;padding:18px;display:flex;flex-direction:column;gap:16px;min-height:0">
+
+          <!-- User bubble -->
+          <div style="display:flex;gap:9px;align-items:flex-start">
+            <div style="width:26px;height:26px;flex:none;border-radius:50%;background:#e8eef6;color:#0b2f63;display:flex;align-items:center;justify-content:center;font-size:9.5px;font-weight:800;margin-top:1px">Vc</div>
+            <div style="background:#f0f6ff;border:1px solid #dce8f8;border-radius:4px 12px 12px 12px;padding:10px 14px;font-size:13.5px;color:#16335f;font-weight:600;line-height:1.45;flex:1">{{ query }}</div>
+          </div>
+
+          <!-- AI bubble -->
+          <div style="display:flex;gap:9px;align-items:flex-start">
+            <div style="width:26px;height:26px;flex:none;border-radius:50%;background:linear-gradient(135deg,#0096d6,#0b2f63);display:flex;align-items:center;justify-content:center;margin-top:1px">
+              <svg viewBox="0 0 24 24" width="12" height="12" style="fill:#fff"><path d="M12 1.5l1.9 7.2 7.1 1.9-7.1 1.9L12 19.7l-1.9-7.2L3 10.6l7.1-1.9z"></path></svg>
+            </div>
+            <div style="flex:1;display:flex;flex-direction:column;gap:12px">
+
+              <!-- Loading -->
+              <sc-if value="{{ loading }}" hint-placeholder-val="{{ false }}">
+                <div style="display:flex;flex-direction:column;gap:9px">
+                  <div style="display:flex;align-items:center;gap:8px">
+                    <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#0096d6;animation:iaPulse 1s infinite 0s"></span>
+                    <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#0096d6;animation:iaPulse 1s infinite .22s"></span>
+                    <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#0096d6;animation:iaPulse 1s infinite .44s"></span>
+                    <span style="font-size:13px;color:#6b7682;margin-left:4px">Pesquisando no acervo…</span>
+                  </div>
+                  <div style="font-size:11.5px;color:#aebfd6;padding-left:2px">Buscando artigos por similaridade semântica</div>
+                </div>
+              </sc-if>
+
+              <!-- Results -->
+              <sc-if value="{{ showResults }}" hint-placeholder-val="{{ true }}">
+
+                <!-- Found badge -->
+                <div style="display:inline-flex;align-items:center;gap:7px;background:#e8f4fc;border:1px solid #cfe6f6;border-radius:6px;padding:5px 10px;align-self:flex-start">
+                  <svg viewBox="0 0 16 16" width="11" height="11" style="fill:#0096d6;flex:none"><path d="M6.5 1a5.5 5.5 0 1 0 3.89 9.3l3.15 3.15a.75.75 0 1 0 1.06-1.06L11.44 9.24A5.5 5.5 0 0 0 6.5 1zm-4 5.5a4 4 0 1 1 8 0 4 4 0 0 1-8 0z"></path></svg>
+                  <span style="font-size:11px;font-weight:700;color:#0b2f63">{{ searchCount }} matérias encontradas no acervo</span>
+                </div>
+
+                <!-- Synthesis -->
+                <div style="font-size:13.5px;color:#1b2733;line-height:1.65;background:#fafbfd;border-left:3px solid #0096d6;padding:12px 14px;border-radius:0 8px 8px 0">{{ ansText }}</div>
+
+                <!-- Numbered sources -->
+                <div>
+                  <div style="font-size:9.5px;font-weight:700;letter-spacing:.07em;color:#8a94a0;margin-bottom:8px">FONTES DO ACERVO</div>
+                  <div style="display:flex;flex-direction:column;gap:5px">
+                    <sc-for list="{{ ansSources }}" as="s" hint-placeholder-count="3">
+                      <div style="display:flex;gap:9px;align-items:flex-start;padding:8px 10px;background:#f8f9fa;border-radius:6px;border:1px solid #eef1f5">
+                        <span style="background:#0b1f44;color:#fff;font-size:9px;font-weight:800;border-radius:3px;padding:2px 6px;flex:none;margin-top:2px;letter-spacing:.03em">[{{ s.num }}]</span>
+                        <div style="flex:1">
+                          <div style="font-size:9px;font-weight:700;letter-spacing:.06em;color:#0096d6;margin-bottom:2px">{{ s.cat }}</div>
+                          <div style="font-size:12px;color:#2a2f36;line-height:1.35">{{ s.t }}</div>
+                        </div>
+                      </div>
+                    </sc-for>
+                  </div>
+                </div>
+
+                <!-- Services -->
+                <div>
+                  <div style="font-size:9.5px;font-weight:700;letter-spacing:.07em;color:#0b1f44;margin-bottom:8px">◆ SERVIÇOS DO SISTEMA INDÚSTRIA</div>
+                  <div style="display:flex;flex-direction:column;gap:6px">
+                    <sc-for list="{{ ansServices }}" as="s" hint-placeholder-count="2">
+                      <a href="{{ s.url }}" target="_blank" style="display:flex;gap:10px;padding:10px 12px;border:1px solid #e9edf2;border-radius:8px;background:#fff;align-items:center;text-decoration:none">
+                        <span style="display:inline-block;width:4px;height:36px;border-radius:3px;background:{{ s.color }};flex:none"></span>
+                        <div style="flex:1;min-width:0">
+                          <div style="font-size:9px;font-weight:800;color:{{ s.color }};letter-spacing:.05em">{{ s.brand }}</div>
+                          <div style="font-size:12.5px;font-weight:700;color:#1b2733;margin-top:1px">{{ s.label }}</div>
+                          <div style="font-size:11px;color:#6b7682;line-height:1.35;margin-top:2px">{{ s.desc }}</div>
+                        </div>
+                        <span style="color:#b5bec8;font-size:16px;flex:none">›</span>
+                      </a>
+                    </sc-for>
+                  </div>
+                </div>
+
+              </sc-if>
+            </div>
+          </div>
+        </div>
+
+        <!-- Input area -->
+        <div style="border-top:1px solid #eef1f5;padding:12px 14px;flex:none;background:#fafbfc">
+          <div style="font-size:9.5px;font-weight:700;letter-spacing:.07em;color:#aebfd6;margin-bottom:7px">SUGESTÕES DE PESQUISA</div>
+          <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px">
+            <sc-for list="{{ chips }}" as="c" hint-placeholder-count="5">
+              <button onClick="{{ c.onClick }}" style="background:#fff;border:1px solid #dde5ee;color:#3a4757;border-radius:100px;padding:5px 10px;font-size:11px;font-family:inherit;cursor:pointer;line-height:1.25;white-space:nowrap">{{ c.label }}</button>
+            </sc-for>
+          </div>
+          <div style="display:flex;gap:8px">
+            <input value="{{ inputVal }}" onInput="{{ onInput }}" onKeyDown="{{ onKey }}" placeholder="Ex: notícias sobre SELIC 2025…" style="flex:1;border:1.5px solid #d4dbe2;border-radius:8px;background:#fff;outline:none;font-family:inherit;font-size:13px;color:#1b2733;padding:10px 12px">
+            <button onClick="{{ onAsk }}" style="background:#0096d6;color:#fff;border:none;border-radius:8px;padding:0 16px;font-family:inherit;font-size:13px;font-weight:700;cursor:pointer;flex:none">→</button>
+          </div>
+        </div>
+      </div>
+    </sc-if>
+
+    <button onClick="{{ onToggle }}" style="display:flex;align-items:center;gap:9px;background:linear-gradient(120deg,#0b1f44,#10377a);color:#fff;border:none;border-radius:100px;padding:14px 20px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer;box-shadow:0 8px 24px rgba(11,31,68,.32)">
+      <svg viewBox="0 0 24 24" width="17" height="17" style="fill:#8fd3f7"><path d="M12 1.5l1.9 7.2 7.1 1.9-7.1 1.9L12 19.7l-1.9-7.2L3 10.6l7.1-1.9z"></path></svg>
+      Pergunte à Indústria
+    </button>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { mode: 'tema', sel: 0, open: true, input: '', ask: null, aiText: null, loading: false };
+
+  CAT = 'https://www.sistemaindustria.portaldaindustria.com.br/nossos-servicos';
+
+  THERMO_TEMA = [
+    { t:'Sustentabilidade & descarbonização', v:92, delta:'+18%', dir:'up' },
+    { t:'Inteligência artificial & indústria 4.0', v:84, delta:'+24%', dir:'up' },
+    { t:'Juros & política monetária', v:76, delta:'+9%', dir:'up' },
+    { t:'Emprego & qualificação', v:64, delta:'-5%', dir:'down' },
+    { t:'Exportações & comércio exterior', v:58, delta:'+12%', dir:'up' },
+    { t:'Tributária & custos de produção', v:47, delta:'+1%', dir:'flat' },
+  ];
+  THERMO_REGIAO = [
+    { t:'Sudeste · IA e investimento', v:88, delta:'+14%', dir:'up' },
+    { t:'Sul · exportações', v:79, delta:'+10%', dir:'up' },
+    { t:'Nordeste · energia renovável', v:71, delta:'+21%', dir:'up' },
+    { t:'Norte · logística e infraestrutura', v:64, delta:'+6%', dir:'up' },
+    { t:'Centro-Oeste · agroindústria', v:60, delta:'-3%', dir:'down' },
+  ];
+
+  NEWS = [
+    {
+      cat:'EDUCAÇÃO',
+      title:'SENAI e Cisco lançam curso de redes industriais para qualificar profissionais da indústria 4.0',
+      summary:'Parceria amplia a formação técnica em conectividade e automação para o chão de fábrica.',
+      related:[
+        { cat:'DICAS DA INDÚSTRIA', t:'4 cursos do SENAI de inteligência artificial para não ficar para trás no mercado' },
+        { cat:'EDUCAÇÃO', t:'Prêmio IEL 2026 abre inscrições para projetos de inovação' },
+        { cat:'NA MÍDIA', t:'Indústria 4.0 exige requalificação de mais de 1 milhão de trabalhadores' },
+      ],
+      suggestions:[
+        { brand:'SENAI', color:'#f07d00', label:'Cursos Indústria 4.0', desc:'Trilhas de redes, automação e IA aplicada à manufatura.' },
+        { brand:'SENAI', color:'#f07d00', label:'Mapa do Trabalho Industrial', desc:'Demanda de profissionais por ocupação e região.' },
+        { brand:'IEL', color:'#16a39a', label:'Estágio e talentos', desc:'2,3 mil vagas conectando estudantes às indústrias.' },
+      ],
+    },
+    {
+      cat:'SUSTENTABILIDADE',
+      title:'Indústria propõe regulamentação do reúso de água em documento a pré-candidatos à Presidência',
+      summary:'Proposta integra a agenda de descarbonização e segurança hídrica do setor.',
+      related:[
+        { cat:'REPORTAGENS ESPECIAIS', t:'Descarbonização em cena: a jornada das indústrias intensivas em energia' },
+        { cat:'SUSTENTABILIDADE', t:'Como a indústria reduz a pegada de carbono ao longo da cadeia produtiva' },
+        { cat:'INFRAESTRUTURA', t:'Saneamento é apontado como prioridade para a competitividade industrial' },
+      ],
+      suggestions:[
+        { brand:'SENAI', color:'#f07d00', label:'Soluções em gestão hídrica', desc:'Consultoria e tecnologia para reúso e eficiência da água.' },
+        { brand:'CNI', color:'#0096d6', label:'Estatísticas & Sondagem', desc:'Dados de consumo de água e energia por setor.' },
+        { brand:'SENAI', color:'#f07d00', label:'Institutos de Inovação', desc:'P&D em tratamento e reaproveitamento de efluentes.' },
+      ],
+    },
+    {
+      cat:'INSTITUCIONAL',
+      title:'Novos líderes assumem federações estaduais da indústria em 2026',
+      summary:'Renovação no comando das federações marca um ciclo de transição na liderança industrial.',
+      related:[
+        { cat:'ENTREVISTAS', t:'O que esperar da nova geração de dirigentes industriais' },
+        { cat:'POSICIONAMENTOS', t:'CNI define prioridades estratégicas para o novo ciclo' },
+        { cat:'INSTITUCIONAL', t:'Conheça o perfil dos presidentes das federações da indústria' },
+      ],
+      suggestions:[
+        { brand:'IEL', color:'#16a39a', label:'Academia de Líderes', desc:'Formação executiva para dirigentes e sucessores do Sistema Indústria.' },
+        { brand:'IEL', color:'#16a39a', label:'Mentoria & Sucessão', desc:'Programa de desenvolvimento de novas lideranças.' },
+        { brand:'CNI', color:'#0096d6', label:'Agenda estratégica', desc:'Posicionamentos e prioridades para apoiar a gestão.' },
+      ],
+    },
+    {
+      cat:'ECONOMIA',
+      title:'45% das empresas industriais esperam alta do endividamento bancário no próximo trimestre',
+      summary:'Pesquisa inédita aponta a pressão do custo do crédito sobre o capital de giro do setor.',
+      related:[
+        { cat:'POSICIONAMENTOS', t:'CNI: corte de juros não reverte prejuízos e Selic segue penalizando a economia' },
+        { cat:'ECONOMIA', t:'Por que a Selic a 15% preocupa a indústria brasileira? (Ep. #188)' },
+        { cat:'ECONOMIA', t:'"0,25% jamais pode ser comemorado", diz presidente da CNI' },
+      ],
+      suggestions:[
+        { brand:'CNI', color:'#0096d6', label:'Sondagem Industrial', desc:'Indicadores de crédito, custos e confiança do empresário.' },
+        { brand:'IEL', color:'#16a39a', label:'Consultoria empresarial', desc:'Apoio à gestão financeira de pequenas e médias indústrias.' },
+        { brand:'SEBRAE', color:'#0a4d8c', label:'Linhas de crédito', desc:'Orientação e acesso a capital de giro para a indústria.' },
+      ],
+    },
+  ];
+
+  TOPICS = [
+    {
+      chip:'Notícias sobre SELIC 2025',
+      q:'Gostaria de notícias que falem da SELIC 2025',
+      keys:['selic','copom','juros','taxa de juro','taxa básica','banco central','política monetária','monetária','bcb','taxa básica','inflação','meta de inflação','bc ','0,25','0.25','corte de juro','corte dos juro'],
+      searchCount: 7,
+      answer:'A CNI critica o ritmo do Copom: com a Selic a 15%, a taxa segue 3,1 pontos percentuais acima do necessário, penalizando o crédito e o investimento industrial [1]. Uma pesquisa inédita aponta que 45% das empresas esperam alta do endividamento bancário no próximo trimestre — reflexo direto do custo elevado do capital [2]. O presidente Ricardo Alban reforça que cortes de 0,25% não revertem os prejuízos acumulados e que o Copom precisa intensificar o ciclo [3].',
+      sources:[
+        { cat:'POSICIONAMENTOS', t:'CNI: corte de juros não reverte prejuízos e Selic segue penalizando a economia brasileira' },
+        { cat:'ECONOMIA', t:'45% das empresas industriais esperam alta do endividamento bancário no próximo trimestre' },
+        { cat:'ECONOMIA', t:'"0,25% jamais pode ser comemorado", diz presidente da CNI' },
+        { cat:'ECONOMIA', t:'Por que a Selic a 15% preocupa a indústria? (Ep. #188)' },
+      ],
+      services:[
+        { brand:'CNI', color:'#0096d6', label:'Sondagem Industrial', desc:'Indicadores de crédito, custo do capital e confiança empresarial.' },
+        { brand:'IEL', color:'#16a39a', label:'Consultoria empresarial', desc:'Apoio à gestão financeira de pequenas e médias indústrias.' },
+        { brand:'SENAI', color:'#f07d00', label:'Serviços Tecnológicos', desc:'Soluções para reduzir custos operacionais e ganhar competitividade.' },
+      ],
+    },
+    {
+      chip:'Qualificar equipe para a indústria 4.0',
+      q:'Como qualificar minha equipe para a indústria 4.0?',
+      keys:['4.0','industria 4','indústria 4','qualific','capacit','treinar','treino','curso','equipe','automa','digital','tecnolog','manufatur','robô','robo'],
+      answer:'A indústria 4.0 é o tema que mais cresce na semana (+24% na cobertura), com SENAI e Cisco lançando formação em redes industriais. Para preparar sua equipe, o SENAI oferece trilhas técnicas e EAD em automação, conectividade e IA aplicada à produção, e os Institutos SENAI de Inovação apoiam a digitalização do chão de fábrica.',
+      sources:[
+        { cat:'EDUCAÇÃO', t:'SENAI e Cisco lançam curso de redes industriais para a indústria 4.0' },
+        { cat:'DICAS', t:'4 cursos do SENAI de inteligência artificial para não ficar para trás' },
+      ],
+      services:[
+        { brand:'SENAI', color:'#f07d00', label:'Educação Profissional', desc:'Cursos técnicos, EAD e qualificação em automação e IA.' },
+        { brand:'SENAI', color:'#f07d00', label:'Institutos de Inovação', desc:'Apoio à digitalização e P&D do processo produtivo.' },
+        { brand:'IEL', color:'#16a39a', label:'Estágio e talentos', desc:'Atrai jovens qualificados para os novos perfis da indústria.' },
+      ],
+    },
+    {
+      chip:'Tornar a fábrica mais sustentável',
+      q:'Como tornar minha indústria mais sustentável e eficiente no uso da água?',
+      keys:['água','agua','reúso','reuso','carbono','descarbon','sustent','esg','energia','hídr','hidr','ambient','clima','emiss','renov'],
+      answer:'A pauta de sustentabilidade lidera a cobertura da semana, com a indústria propondo um marco para o reúso de água e avançando na descarbonização. O SENAI oferece consultoria e tecnologia em gestão hídrica e eficiência energética, enquanto a CNI disponibiliza dados de consumo por setor para orientar metas.',
+      sources:[
+        { cat:'SUSTENTABILIDADE', t:'Indústria propõe regulamentação do reúso de água' },
+        { cat:'REPORTAGENS', t:'Descarbonização em cena: indústrias intensivas em energia' },
+      ],
+      services:[
+        { brand:'SENAI', color:'#f07d00', label:'Soluções em gestão hídrica', desc:'Consultoria e tecnologia para reúso e eficiência da água.' },
+        { brand:'SENAI', color:'#f07d00', label:'Institutos de Inovação', desc:'P&D em tratamento de efluentes e energia limpa.' },
+        { brand:'CNI', color:'#0096d6', label:'Estatísticas & Sondagem', desc:'Indicadores de água e energia por setor industrial.' },
+      ],
+    },
+    {
+      chip:'Desenvolver lideranças e sucessão',
+      q:'Como desenvolver novas lideranças para a minha indústria?',
+      keys:['líder','lider','gestão','gestao','sucess','dirigent','executiv','governan','mentor','carreira','chefe','direção','direcao'],
+      answer:'A renovação no comando das federações coloca a formação de lideranças em destaque. O IEL atua exatamente nesse ponto, com a Academia de Líderes — formação executiva para dirigentes e sucessores — além de programas de mentoria e desenvolvimento de gestão.',
+      sources:[
+        { cat:'INSTITUCIONAL', t:'Novos líderes assumem federações estaduais da indústria em 2026' },
+        { cat:'ENTREVISTAS', t:'O que esperar da nova geração de dirigentes industriais' },
+      ],
+      services:[
+        { brand:'IEL', color:'#16a39a', label:'Academia de Líderes', desc:'Formação executiva para dirigentes e sucessores.' },
+        { brand:'IEL', color:'#16a39a', label:'Mentoria & Sucessão', desc:'Desenvolvimento estruturado de novas lideranças.' },
+        { brand:'IEL', color:'#16a39a', label:'Consultoria em gestão', desc:'Apoio à governança e profissionalização da empresa.' },
+      ],
+    },
+    {
+      chip:'Contratar estagiários e talentos',
+      q:'Como atrair estagiários e novos talentos para a indústria?',
+      keys:['estág','estag','jovem','aprendiz','contrat','talento','vaga','recrut','trainee','universit','rh '],
+      answer:'O IEL conecta estudantes e empresas: são milhares de vagas de estágio abertas em todo o país, além de programas de jovem aprendiz e da ponte universidade–empresa. Para formar esses talentos, o SENAI complementa com cursos técnicos e qualificação.',
+      sources:[
+        { cat:'EDUCAÇÃO', t:'IEL abre 2,3 mil vagas de estágio em todo o país' },
+        { cat:'EDUCAÇÃO', t:'Prêmio IEL 2026 abre inscrições para projetos de inovação' },
+      ],
+      services:[
+        { brand:'IEL', color:'#16a39a', label:'Estágio', desc:'Recrutamento e gestão de estagiários em todo o país.' },
+        { brand:'IEL', color:'#16a39a', label:'Jovem Aprendiz', desc:'Programa de aprendizagem alinhado à legislação.' },
+        { brand:'SENAI', color:'#f07d00', label:'Educação Profissional', desc:'Formação técnica para os perfis que faltam.' },
+      ],
+    },
+  ];
+
+  DEFAULT = {
+    answer:'Posso ajudar com base nas notícias do portal e indicar os serviços certos do Sistema Indústria. De forma geral: a CNI atua em representação, dados e competitividade; o SENAI em educação profissional e tecnologia; o SESI em saúde e segurança; e o IEL em talentos, estágio e gestão. Explore o catálogo para encontrar a solução ideal.',
+    sources:[
+      { cat:'POSICIONAMENTOS', t:'CNI define prioridades estratégicas para a indústria' },
+      { cat:'EDUCAÇÃO', t:'SENAI e Cisco lançam curso de redes para a indústria 4.0' },
+    ],
+    services:[
+      { brand:'CNI', color:'#0096d6', label:'Estatísticas & Sondagem', desc:'Dados e indicadores para decisões na indústria.' },
+      { brand:'SENAI', color:'#f07d00', label:'Educação Profissional', desc:'Cursos técnicos, EAD e qualificação.' },
+      { brand:'IEL', color:'#16a39a', label:'Consultoria empresarial', desc:'Apoio à gestão, inovação e talentos.' },
+    ],
+  };
+
+  match(q) {
+    q = (q || '').toLowerCase();
+    let best = null, score = 0;
+    for (const t of this.TOPICS) {
+      let s = 0;
+      for (const k of t.keys) if (q.indexOf(k) >= 0) s++;
+      if (s > score) { score = s; best = t; }
+    }
+    return best || this.DEFAULT;
+  }
+
+  askTopic(t) {
+    this.setState({ ask: { query: t.q, topic: t }, input: '', aiText: null, loading: true });
+    setTimeout(() => this.setState({ loading: false }), 1100 + Math.random() * 400);
+  }
+
+  doAsk(text) {
+    const q = (text || '').trim();
+    if (!q) return;
+    const t = this.match(q);
+    this.setState({ ask: { query: q, topic: t }, input: '', aiText: null, loading: true });
+    const delay = 1000 + Math.random() * 600;
+    setTimeout(() => this.setState({ loading: false }), delay);
+  }
+
+  renderVals() {
+    const colorFor = d => d === 'up' ? '#1f9d57' : d === 'down' ? '#d23f31' : '#8a94a0';
+    const arrowFor = d => d === 'up' ? '↑' : d === 'down' ? '↓' : '→';
+    const src = this.state.mode === 'tema' ? this.THERMO_TEMA : this.THERMO_REGIAO;
+    const thermoBars = src.map(b => ({ t: b.t, v: b.v, delta: b.delta, width: b.v + '%', color: colorFor(b.dir), arrow: arrowFor(b.dir) }));
+
+    const onBtn = 'padding:9px 16px;font-size:13px;font-weight:700;font-family:inherit;border:none;cursor:pointer;background:#0b1f44;color:#fff';
+    const offBtn = 'padding:9px 16px;font-size:13px;font-weight:600;font-family:inherit;border:none;cursor:pointer;background:#fff;color:#5a6470';
+
+    const tabs = this.NEWS.map((n, i) => {
+      const active = i === this.state.sel;
+      return {
+        cat: n.cat, title: n.title,
+        catColor: active ? '#0096d6' : '#8a94a0',
+        titleColor: active ? '#16335f' : '#3a4048',
+        style: 'cursor:pointer;padding:14px 16px;border-radius:8px;border:1px solid ' + (active ? '#0096d6' : '#e6eaef') + ';background:' + (active ? '#f2f9fd' : '#fff') + ';transition:all .15s',
+        onClick: () => this.setState({ sel: i }),
+      };
+    });
+
+    const ask = this.state.ask || { query: this.TOPICS[0].q, topic: this.TOPICS[0] };
+    const topic = ask.topic;
+    const ansText = (topic === this.DEFAULT && this.state.aiText) ? this.state.aiText : topic.answer;
+    const chips = this.TOPICS.map(t => ({ label: t.chip, onClick: () => this.askTopic(t) }));
+    const loading = !!this.state.loading;
+    const searchCount = topic.searchCount || (topic.sources ? topic.sources.length + 3 : 4);
+    const ansSources = (topic.sources || []).map((s, i) => ({ ...s, num: i + 1 }));
+
+    return {
+      thermoBars,
+      setTema: () => this.setState({ mode: 'tema' }),
+      setRegiao: () => this.setState({ mode: 'regiao' }),
+      temaBtnStyle: this.state.mode === 'tema' ? onBtn : offBtn,
+      regiaoBtnStyle: this.state.mode === 'regiao' ? onBtn : offBtn,
+      tabs,
+      current: this.NEWS[this.state.sel],
+      open: this.state.open,
+      onToggle: () => this.setState({ open: !this.state.open }),
+      inputVal: this.state.input || '',
+      onInput: e => this.setState({ input: e.target.value }),
+      onKey: e => { if (e.key === 'Enter') this.doAsk(this.state.input); },
+      onAsk: () => this.doAsk(this.state.input),
+      chips,
+      query: ask.query,
+      loading,
+      showResults: !loading,
+      searchCount,
+      ansText,
+      ansSources,
+      ansServices: topic.services.map(s => ({ ...s, url: this.CAT })),
+    };
+  }
+}
+</script>
+</body>
+</html>
